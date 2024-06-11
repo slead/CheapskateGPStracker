@@ -7,7 +7,7 @@ import os
 from math import radians, sin, cos, sqrt, atan2
 import json
 
-file_path = "/Users/steve/Dropbox/Apps/ShitboxRallyTracker/points.csv"
+file_path = "./points.csv"
 
 def calculate_distance(lat1, lon1, lat2, lon2):
     # Don't fill up the database with duplicate points - only update

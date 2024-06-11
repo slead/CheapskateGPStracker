@@ -17,7 +17,9 @@ For devices which support this (ie, iPhone 14 and above), locations can be pushe
 
  - `pip3 install pyicloud`
 
-Run the script, which should prompt you for the index of the device to track:
+Run the script, and enter the 2-factor-authentication code if requested to do so (the timing of this request from Apple is unpredictable).
+
+Next it should prompt you for the index of the device to track:
 
 ```
 0 MacBook Pro

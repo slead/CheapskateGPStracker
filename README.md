@@ -2,6 +2,8 @@
 
 Find My iPhone will only return the device's last known location, so this script polls the Find My iPhone service at regular intervals and saves the locations to a local file for later retrieval.
 
+For devices which support this (ie, iPhone 14 and above), locations can be pushed via satellite when no phone signal is available, allowing for a cheapskate's satellite tracker function.
+
 ## setup
 
  - create a file `config.json` at the root level, and include the iCloud email and password:
